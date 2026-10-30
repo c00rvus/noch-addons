@@ -17,9 +17,9 @@ Tradutor de tela offline, de inglês para português brasileiro. No Noch, ative 
 
 SHA-256:
 
-``text
+```text
 6ee782f1cb22adc8016fa85b113150f22eb674f92b75bc6a7a6c5b1a76988ba9
-``
+```
 
 O Noch verifica o tamanho e o SHA-256 antes da instalação. Os endereços de cada versão são fixos; atualizações do complemento usam uma nova versão. Estes pacotes não habilitam o atualizador da aplicação nem usam o feed do Oyenza.
 
