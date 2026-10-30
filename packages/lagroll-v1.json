@@ -1,0 +1,11 @@
+{
+  "id": "lagroll",
+  "version": "1",
+  "platform": "win-x64",
+  "protocol": 1,
+  "file": "lagroll-noch-win-x64-v1.zip",
+  "bytes": 299886365,
+  "sha256": "6ee782f1cb22adc8016fa85b113150f22eb674f92b75bc6a7a6c5b1a76988ba9",
+  "unpacked_bytes": 638860555,
+  "entrypoint": "Lagroll.Noch.exe"
+}
