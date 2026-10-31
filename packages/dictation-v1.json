@@ -1,0 +1,12 @@
+{
+  "id": "dictation",
+  "version": "1",
+  "platform": "win-x64",
+  "protocol": "whisper_cli",
+  "file": "dictation-whisper-turbo-q5-win-x64-v1.zip",
+  "bytes": 550155634,
+  "sha256": "e8747cccd463dc622ef115cf0d4ef0719b81ccf514fc05ab3d3c3a5d49e8f9fc",
+  "unpacked_bytes": 636837149,
+  "entrypoint": "whisper-cli.exe",
+  "url": "https://github.com/c00rvus/noch-addons/releases/download/addon-dictation-1/dictation-whisper-turbo-q5-win-x64-v1.zip"
+}
