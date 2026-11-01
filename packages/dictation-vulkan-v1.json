@@ -1,0 +1,17 @@
+{
+  "id": "dictation-vulkan",
+  "owner": "dictation",
+  "required_base_addon": "dictation",
+  "version": "1",
+  "platform": "win-x64",
+  "protocol": "whisper_cli",
+  "release_tag": "addon-dictation-vulkan-1",
+  "file": "dictation-vulkan-win-x64-v1.zip",
+  "bytes": 16557835,
+  "sha256": "727544eb069de37b404be321842b368b7a9d1d1d3f46d9f1acd9100af4ab8ea9",
+  "unpacked_bytes": 51865473,
+  "entrypoint": "whisper-cli.exe",
+  "model_included": false,
+  "required_base_model_sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+  "url": "https://github.com/c00rvus/noch-addons/releases/download/addon-dictation-vulkan-1/dictation-vulkan-win-x64-v1.zip"
+}

@@ -42,6 +42,27 @@ SHA-256:
 e8747cccd463dc622ef115cf0d4ef0719b81ccf514fc05ab3d3c3a5d49e8f9fc
 ```
 
+## Aceleração GPU do Ditar (Vulkan, Windows x64)
+
+Recurso nativo adicional para versões do Noch com suporte à aceleração Vulkan. Ao ativar **Ditar**, o Noch baixa este runtime sob demanda e verifica seu tamanho e SHA-256. Ele usa o mesmo modelo Q5 do pacote base: não inclui nem baixa outra cópia dos pesos.
+
+- Versão do recurso: 1; pertence ao Ditar e não adiciona outra aba ou switch de complemento.
+- Download adicional: 16.557.835 bytes (aproximadamente 16,6 MB).
+- Arquivos instalados adicionais: 51.865.473 bytes (aproximadamente 51,9 MB).
+- Requer Windows x64 com UCRT e driver gráfico Vulkan compatível. Nenhum driver, SDK ou compilador acompanha o ZIP.
+- Usa a GPU quando disponível; o runtime CPU/OpenBLAS do pacote base permanece como fallback.
+- Durante o download opcional, o ditado já pode usar a CPU. Falhas no acelerador não desativam o Ditar; uma nova ativação permite tentar novamente.
+- O helper inicia somente ao transcrever e encerra ao terminar. Desativar Ditar remove também este recurso.
+- Contém o runtime whisper.cpp/ggml e suas dependências nativas, proveniência e licenças. Não contém modelo, código privado do Noch, perfil, histórico ou áudio pessoal.
+
+[Baixar aceleração Vulkan v1](https://github.com/c00rvus/noch-addons/releases/download/addon-dictation-vulkan-1/dictation-vulkan-win-x64-v1.zip)
+
+SHA-256:
+
+```text
+727544eb069de37b404be321842b368b7a9d1d1d3f46d9f1acd9100af4ab8ea9
+```
+
 ## Licenças e créditos
 
-Os avisos, licenças e atribuições de .NET/WPF, Python, bibliotecas de OCR e tradução e modelos acompanham cada ZIP. A atribuição CC-BY 4.0 do modelo de tradução está em models/en-pb/README.md dentro do pacote. Consulte esses arquivos para as condições de cada componente.
+Os avisos, licenças e atribuições dos componentes acompanham o respectivo ZIP: conforme o complemento, .NET/WPF, Python, bibliotecas de OCR e tradução, modelos, whisper.cpp/ggml, LLVM e headers Vulkan/SPIR-V. A atribuição CC-BY 4.0 do modelo de tradução está em models/en-pb/README.md dentro do pacote. Consulte esses arquivos para as condições de cada componente.
