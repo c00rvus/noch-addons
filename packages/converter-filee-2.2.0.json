@@ -1,0 +1,19 @@
+{
+  "id": "converter",
+  "version": "2.2.0",
+  "platform": "win-x64",
+  "protocol": "filee_cli",
+  "distribution": "original_upstream_archive",
+  "repackaged": false,
+  "file": "Filee-2.2.0-win-Portable.zip",
+  "bytes": 157977572,
+  "sha256": "3e181d39a298105bef381b3fea64e6a08ff4d93416196517a21c22d65b5e6ac7",
+  "unpacked_bytes": 325704254,
+  "entrypoint": "filee-cli.exe",
+  "url": "https://github.com/KnifeLemon/Filee/releases/download/v2.2.0/Filee-2.2.0-win-Portable.zip",
+  "upstream_repository": "https://github.com/KnifeLemon/Filee",
+  "upstream_tag": "v2.2.0",
+  "upstream_commit": "206df593ca0bc5f00f47c3b2bdf8f6aa98e50b1f",
+  "license": "MIT and bundled third-party notices",
+  "notices_url": "https://github.com/KnifeLemon/Filee/blob/v2.2.0/THIRD-PARTY-NOTICES.md"
+}

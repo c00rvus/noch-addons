@@ -63,6 +63,31 @@ SHA-256:
 727544eb069de37b404be321842b368b7a9d1d1d3f46d9f1acd9100af4ab8ea9
 ```
 
+## Conversor para Windows x64 (Filee)
+
+Conversão offline com o CLI original do **Filee 2.2.0**, de Myeonggu Kim (KnifeLemon) e colaboradores. Ative **Conversor** em **Configurações avançadas → Complementos**. Arraste arquivos para a ilha e solte na área Conversor; o Noch mostra botões com formatos relevantes ao tipo de origem e disponíveis nos motores instalados. Os últimos formatos usados com sucesso aparecem primeiro para aquele tipo.
+
+- Pacote base: 157.977.572 bytes de download e 325.704.254 bytes instalados, aproximadamente 158 MB / 326 MB.
+- O Noch baixa o ZIP público original diretamente do projeto Filee, verificando tamanho e SHA-256; o pacote não foi modificado nem republicado aqui.
+- Executa apenas o CLI durante consultas e conversões, com controles nativos no Noch.
+- Resultados ficam ao lado dos originais; nomes repetidos recebem um número. Arquivos pessoais não são enviados.
+- Preserva a licença MIT, créditos e avisos de terceiros do pacote original.
+
+[Pacote original Filee 2.2.0](https://github.com/KnifeLemon/Filee/releases/download/v2.2.0/Filee-2.2.0-win-Portable.zip) · [Proveniência e hash](packages/converter-filee-2.2.0.json) · [Código e créditos do Filee](https://github.com/KnifeLemon/Filee/tree/v2.2.0)
+
+### Vídeo e áudio com FFmpeg
+
+O suporte de mídia é um recurso do Conversor. Ele é baixado na primeira seleção de vídeo/áudio reconhecido ou pelo botão **Baixar vídeo e áudio**; ativar o Conversor sozinho não baixa o FFmpeg.
+
+- FFmpeg **9.0.2**, build Windows x64 compartilhado completo de Gyan Doshi, no ZIP original inalterado.
+- Download adicional: 99.899.672 bytes; arquivos adicionais instalados: 272.363.958 bytes, aproximadamente 100 MB / 272 MB.
+- Filee + FFmpeg: aproximadamente 258 MB baixados e 598 MB instalados, sem contar resultados e arquivos temporários.
+- Progresso e cancelamento no Noch. O pacote verificado é reutilizado; desativar o Conversor remove os dois recursos após encerrar os processos ativos.
+- Conversões usam CPU. Nada permanece processando em repouso; nenhum PATH global, registro ou perfil independente do Filee é alterado.
+- O ZIP conserva sua licença GPL v3, configuração de build, créditos e avisos originais. Os componentes mantêm suas próprias licenças.
+
+[Pacote original FFmpeg 9.0.2](https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-full_build-shared.zip) · [Proveniência e hash](packages/converter-ffmpeg-9.0.2.json) · [Fontes FFmpeg](https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz)
+
 ## Licenças e créditos
 
 Os avisos, licenças e atribuições dos componentes acompanham o respectivo ZIP: conforme o complemento, .NET/WPF, Python, bibliotecas de OCR e tradução, modelos, whisper.cpp/ggml, LLVM e headers Vulkan/SPIR-V. A atribuição CC-BY 4.0 do modelo de tradução está em models/en-pb/README.md dentro do pacote. Consulte esses arquivos para as condições de cada componente.
